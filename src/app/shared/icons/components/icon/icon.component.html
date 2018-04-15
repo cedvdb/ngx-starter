@@ -1,0 +1,18 @@
+
+
+
+
+<ng-container [ngSwitch]="fontSet">
+	<!-- font awesome -->
+	<ng-container *ngSwitchCase="'fa'">
+		<!-- we use symbols for faster rendering -->
+		<svg *ngIf="useSymbol; else icon" class="svg-inline--fa fa-w-20">
+			<use [attr.xlink:href]="'#' + name"></use>
+		</svg>
+	</ng-container>
+
+	<!-- svg -->
+	<ng-container *ngSwitchCase="'svg'">
+		<img src="assets/icons/{{ name }}.svg"/>
+	</ng-container>
+</ng-container>

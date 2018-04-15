@@ -10,7 +10,7 @@
       true,
       "check-space"
     ],
-    "curly": true,
+    "curly": false,
     "deprecation": {
       "severity": "warn"
     },
@@ -24,7 +24,7 @@
     "import-spacing": true,
     "indent": [
       true,
-      "spaces"
+      "tabs"
     ],
     "interface-over-type-literal": true,
     "label-position": true,
@@ -78,7 +78,6 @@
     "object-literal-sort-keys": false,
     "one-line": [
       true,
-      "check-open-brace",
       "check-catch",
       "check-else",
       "check-whitespace"
@@ -121,16 +120,16 @@
     "directive-selector": [
       true,
       "attribute",
-      "app",
+      "x",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "app",
+      "x",
       "kebab-case"
     ],
-    "no-output-on-prefix": true,
+    "no-output-on-prefix": false,
     "use-input-property-decorator": true,
     "use-output-property-decorator": true,
     "use-host-property-decorator": true,

@@ -1,0 +1,6 @@
+{
+  "path-intellisense.mappings": {
+		"~shared/*": ["${workspaceRoot}/src/app/shared/*"],
+		"~features/*": ["${workspaceRoot}/src/app/features/*"],
+  },
+}
