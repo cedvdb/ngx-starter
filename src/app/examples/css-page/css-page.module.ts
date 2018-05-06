@@ -1,25 +1,23 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { IconPageComponent } from './icon-page.component';
+import { CssPageComponent } from './css-page.component';
 import { RouterModule } from '@angular/router';
-import { IconsModule } from '../../shared/icons';
 
 @NgModule({
 	imports: [
 		CommonModule,
-		IconsModule,
 		RouterModule.forChild([
 			{
-				path: 'icons',
-				component: IconPageComponent
+				path: 'css',
+				component: CssPageComponent
 			},
 			{
 				path: '',
-				redirectTo: '/icons',
+				redirectTo: '/css',
 				pathMatch: 'full'
 			}
 		])
 	],
-	declarations: [IconPageComponent]
+	declarations: [CssPageComponent]
 })
-export class IconPageModule { }
+export class CssPageModule { }

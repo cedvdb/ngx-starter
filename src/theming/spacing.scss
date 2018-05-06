@@ -5,3 +5,55 @@
 	--spacing-l: 1.6rem;
 	--spacing-xl: 3.2rem;
 }
+
+.mg-none {
+	margin: var(--spacing-none);
+}
+
+.mg-xs {
+	margin: var(--spacing-xs);
+}
+
+.mg-s {
+	margin: var(--spacing-s);
+}
+
+.mg-m {
+	margin: var(--spacing-m);
+}
+
+.mg-l {
+	margin: var(--spacing-l);
+}
+
+.mg-xl {
+	margin: var(--spacing-xl);
+}
+
+.pd-none {
+	padding: var(--spacing-none);
+}
+
+.pd-xs {
+	padding: var(--spacing-xs);
+}
+
+.pd-s {
+	padding: var(--spacing-s);
+}
+
+.pd-m {
+	padding: var(--spacing-m);
+}
+
+.pd-l {
+	padding: var(--spacing-l);
+}
+
+.pd-xl {
+	padding: var(--spacing-xl);
+}
+
+.border-radius {
+	border-radius: var(--border-radius);
+}

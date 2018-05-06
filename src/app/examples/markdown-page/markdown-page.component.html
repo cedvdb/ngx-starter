@@ -1,0 +1,18 @@
+<x-card>
+	<h2>Type here</h2>
+	<textarea [(ngModel)]="code">
+
+	</textarea>
+	<h2>Preview</h2>
+	<x-markdown [string]="code"></x-markdown>
+</x-card>
+
+<x-card>
+	<x-markdown>`@Input()` string: If you need to pass dynamic string</x-markdown>
+	<x-markdown>It works by transclusion as well:</x-markdown>
+	<x-markdown [string]="transcludedCode"></x-markdown>
+</x-card>
+
+<x-card>
+	Caveat: code blocks are done by having indentation. If you have indentation in your string it will be displayed as &lt;code&gt;
+</x-card>

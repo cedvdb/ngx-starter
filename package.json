@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve  --port 4201",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -24,6 +24,8 @@
     "@fortawesome/fontawesome": "^1.1.5",
     "@fortawesome/fontawesome-free-solid": "^5.0.10",
     "core-js": "^2.4.1",
+    "google-code-prettify": "^1.0.5",
+    "markdown": "^0.5.0",
     "rxjs": "^5.5.2",
     "zone.js": "^0.8.14"
   },
